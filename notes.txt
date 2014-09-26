@@ -1,0 +1,16 @@
+Every python file you create is a library.
+
+CLASSES
+	- in console cd to dir w/ python files, type "python", "from monster import Monster" (From file import Classname).  Check attributes: "Monster.hit_points".  For attributes, we don't have to use parantheses at the end, because they aren't functions.  TO call a function, you use parentheses at the end.  Like this: Hit()
+	- Classes alone are usually pretty useless. They're great for holding information but you don't want to change the class every time you need a new copy of it.  If you're doing that, you might as well use a dictionary and change it constantly.
+
+INSTANCE
+	- Copies of a class but we can change each instance independently.
+
+METHODS
+	- functions that belong to classes
+
+__init__
+	- __ is called dunder
+	- this runs when we create a new instance of a class so we can control things at the beginning
+	-
